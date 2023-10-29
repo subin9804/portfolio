@@ -2,11 +2,11 @@
 export default function Skills() {
 
     return (
-        <section id="skills">
-            <h1>INTRO</h1>
+        <section id="skills" className="mb-20">
+            <h1 className="text-2xl font-bold text-white py-4">INTRO</h1>
             <div className="flex gap-4">
                 <div className="w-1/2 h-full">
-                    <div class="bg-white mb-5 p-4">
+                    <div class="bg-green-100 mb-5 p-4">
                         <p className="text-center text-xl font-bold pb-4">● SCHOOL ●</p>
                         <ul className="p-4">
                             <li>- 숭실대학교</li>
@@ -15,7 +15,7 @@ export default function Skills() {
                             <li>- 학점: 3.71 / 4.5</li>
                         </ul>
                     </div>
-                    <div class="bg-green-100 p-4">
+                    <div class="bg-white p-4">
                         <p className="text-center text-xl font-bold pb-4">● EDU ●</p>
                         <dl>
                             <dt className="font-bold">2022.10 – 2023.05    코리아IT아카데미 </dt>
